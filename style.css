@@ -4,24 +4,102 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    background-image: url('https://coolbackgrounds.io/images/backgrounds/black/black-trianglify-b6181ec2.jpg');
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: no-repeat;   
+    height: 100%;                 
+    margin: 0;                     
+    
+    
+    
 }
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 1em;
-    text-align: center;
+.bb{
     width: 100%;
 }
 
-nav a {
-    color: white;
+
+
+
+.top{
+    padding: 0;
+    padding: 1em;
+    height: 30%;
+    width: 100%;
     text-decoration: none;
-    margin: 0 1em;
+    margin: 0em;
+    text-align: center;
+    background-color: #333;
+    color:white;
+   
+    z-index: 1;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-section {
-    max-width: 800px;
+.txt{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: larger;
     padding: 1em;
+}
+
+.image{
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.info{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    padding-left: 1em;
+    width: 100%;
+}
+
+.info_2{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    padding: 1em;
+    
+    
+    
+}
+.sec{
+    text-align: center;
+    padding: 1em;
+    height: 30%;
+    width: 100%;
+    text-decoration: none;
+    margin: 0em;
+    align-items: center;
+    
+}
+
+.about-me{
+    color: white;
+    font-size: larger;
+    font-family:fantasy;
+}
+
+.h1{
+    padding: 1em;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.first{
+
+    width: 100%;
+    height: 100%;
+    align-items: center;
 }
