@@ -2,8 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
     background-image: url('https://coolbackgrounds.io/images/backgrounds/black/black-trianglify-b6181ec2.jpg');
     background-size: cover;       
     background-position: center;   
@@ -22,9 +21,11 @@ body {
 
 
 .top{
+    font-family: Sans-serif;
+    text-align: center;
     padding: 0;
-    padding: 1em;
-    height: 30%;
+    padding: 2em;
+    height: 200px;
     width: 100%;
     text-decoration: none;
     margin: 0em;
@@ -54,11 +55,14 @@ body {
 }
 
 .info{
+    font-family: monospace;
     color: white;
     text-decoration: none;
     font-size: larger;
     padding-left: 1em;
     width: 100%;
+    text-align: center;
+    font-size: larger;
 }
 
 .info_2{
@@ -84,10 +88,11 @@ body {
 .about-me{
     color: white;
     font-size: larger;
-    font-family:fantasy;
+    font-family:monospace;
 }
 
 .h1{
+    text-align: center;
     padding: 1em;
 }
 
@@ -102,4 +107,27 @@ body {
     width: 100%;
     height: 100%;
     align-items: center;
+    text-align: center;
+}
+
+
+
+.skill{
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.card-img-top{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.division{
+    width: 100%;
+    height: 100px;
 }
