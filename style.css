@@ -146,3 +146,26 @@ body {
 .mb-3{
     padding: 1em;
 }
+
+.projects{
+    align-items: center;
+    text-align: center;
+    place-items: center;
+}
+
+.pro{
+    padding: 1em;
+    text-align: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+ background-color: gray;
+}
+
+.car{
+    border-radius: 20px;
+    width:200px;
+    height:200px;
+}
+
