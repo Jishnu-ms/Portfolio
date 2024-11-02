@@ -15,6 +15,7 @@ body {
 }
 .bb{
     width: 100%;
+    height: 100%;
 }
 
 
@@ -130,4 +131,18 @@ body {
 .division{
     width: 100%;
     height: 100px;
+}
+
+#contact-form{
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    height: 450px;
+    width: 100%;
+
+}
+
+.mb-3{
+    padding: 1em;
 }
