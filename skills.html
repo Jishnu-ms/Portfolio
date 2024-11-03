@@ -8,21 +8,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skills</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body class="bb">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <header class="top">
-        <h1 class="h1">My Skills</h1>
-        <nav>
-            <a class="txt" href="index.html">Home</a>
-            <a class="txt" href="portfolio.html">Portfolio</a>
-            <a class="txt" href="skills.html">Skills</a>
-            <a class="txt" href="qualifications.html">Qualifications</a>
-            <a class="txt" href="contact.html">Contact</a>
-        </nav>
-    </header>
+        <header class="top">
+            <h1 class="h1">Skills</h1>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <nav class="nav-links">
+                <a class="txt" href="index.html">Home</a>
+                <a class="txt" href="portfolio.html">Portfolio</a>
+                <a class="txt" href="skills.html">Skills</a>
+                <a class="txt" href="qualifications.html">Qualifications</a>
+                <a class="txt" href="contact.html">Contact</a>
+            </nav>
+            <script src="script.js"></script>
+        </header>
+        
     <section>
     <h2 class="info">Technical Skills</h2>
     <div class="skill">
@@ -30,7 +34,10 @@
         <div class="card">
             <img src="https://as2.ftcdn.net/v2/jpg/00/75/92/23/1000_F_75922341_EQ5ir4801xHK00ysm5YhZ8nta9jGjNto.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="about-me">I have a strong command of HTML, enabling me to create well-structured, accessible, and semantically rich web pages. My expertise includes organizing content logically, using semantic elements for improved SEO and accessibility, and adhering to best practices in web development to deliver clean, efficient markup.</p>
+              <p class="about-me">I have a strong command of HTML, enabling me to create well-structured, accessible, </p>
+                <p class="about-me">and semantically rich web pages.</p> 
+               <p class="about-me"> My expertise includes organizing content logically, using semantic elements for improved SEO and accessibility, </p>
+                <p class="about-me">adhering to best practices in web development to deliver clean, efficient markup.</p>
             </div>
           </div>
           <div class="division">
@@ -82,5 +89,18 @@
 
     </div>
     </section>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector(".nav-links");
+            navLinks.classList.toggle("show");
+        }
+
+        // Close the menu when a link is clicked
+        document.querySelectorAll(".nav-links .txt").forEach(link => {
+            link.addEventListener("click", () => {
+                document.querySelector(".nav-links").classList.remove("show");
+            });
+        });
+    </script>
 </body>
 </html>
