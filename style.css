@@ -41,18 +41,18 @@ body {
 }
 
 .image:hover {
-    transform: scale(1.1); /* Scales the image to 110% on hover */
+    transform: scale(1.1);
     opacity: 0.9; 
 }
 
 .info{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     font-size: larger;
     padding: 1em;
     width: 100%;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .info_2{
@@ -83,7 +83,7 @@ body {
 }
 
 .h1{
-    font-family: monospace;
+    font-family:monospace;
     text-align: center;
     padding: 1em;
 }
@@ -162,7 +162,7 @@ body {
 }
 
 .car:hover{
-    transform: scale(1.1); /* Scales the image to 110% on hover */
+    transform: scale(1.1); 
     opacity: 0.9; 
 
 }
@@ -173,10 +173,6 @@ font-size: 50px;
 color: wheat;
 }
 
-
-
-
-/* General Styles */
 header.top {
     display: flex;
     align-items: center;
@@ -198,7 +194,7 @@ h1.h1 {
     gap: 20px;
 }
 
-/* Hide the menu button on larger screens */
+
 .menu-toggle {
     display: none;
     font-size: 24px;
@@ -208,10 +204,9 @@ h1.h1 {
     cursor: pointer;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
     .nav-links {
-        display: none; /* Hide links initially */
+        display: none;
         flex-direction: column;
         gap: 10px;
         background-color: #333;
@@ -223,11 +218,11 @@ h1.h1 {
     }
 
     .nav-links.show {
-        display: flex; /* Show when toggled */
+        display: flex;
     }
 
     .menu-toggle {
-        display: block; /* Show menu button */
+        display: block;
     }
 }
 
@@ -246,4 +241,49 @@ footer {
   footer a:hover {
     text-decoration: underline;
   }
-  
+  .but{
+    color: #333;
+    width: 200px;
+    height: 50px;
+    background-color: burlywood;
+    border-radius: 15px;
+    border-width: 0px;
+    font-size: larger;
+  }
+  .but:hover{
+    background-color: aquamarine;
+    color: #333;
+    transform: scale(1.1);
+    opacity: 0.9; 
+
+  }
+
+  .heading{
+    color: lightcoral;
+    font-size: 30px;
+    font-family: fantasy;
+  }
+
+  .btn{
+    color: #333;
+    width: 150px;
+    height: 33px;
+    background-color: darkcyan;
+    border-radius: 15px;
+    border-width: 0px;
+    font-size: larger;
+  }
+
+  .btn:hover{
+    background-color: aquamarine;
+    color: #333;
+    transform: scale(1.1);
+    opacity: 0.9; 
+
+  }
+
+  .form-label{
+    font-family:monospace ;
+    font-size: 20px;
+  }
+

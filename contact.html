@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Use only Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7Iw5KTAe5HgAsFO++LRn5qZl5q5k5vo5K4" crossorigin="anonymous">
 </head>
 <body class="bb">
@@ -23,8 +22,6 @@
     </header>
     <div class="division">
     </div>
-    <div class="division">
-    </div>
     <h1 class="info"> Contact Me</h1>
       
     <section class="form">
@@ -32,32 +29,40 @@
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              <div id="emailHelp" class="form-label">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn">Submit</button>
+            <br>
+            <br>
+            <br>
+            <div class="box">
+            <a href="https://www.linkedin.com/in/jishnums830/">
+                <button type="button" class="but" href="contact.html">@Linkedin</button>
+                </a>
+                <br>
+                <br>
+            <a href="https://github.com/Jishnu-ms">
+                <button type="button" class="but" href="contact.html">@GitHub</button>
+                </a>
+            </div>
         </form>
+        
     </section>
-
-    <!-- JavaScript Files -->
-    <!-- Only Bootstrap 5 is needed here -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-qENq/zFRpb4jsGO64Bb1rVBoEv2h70Aw5STdZ2NlKNldmB8X2pHpG8Ck5tZO2z3D" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-    <!-- Place script.js at the end of the body for better load order -->
     <script>
         function toggleMenu() {
             const navLinks = document.querySelector(".nav-links");
             navLinks.classList.toggle("show");
         }
-
-        // Close the menu when a link is clicked
         document.querySelectorAll(".nav-links .txt").forEach(link => {
             link.addEventListener("click", () => {
                 document.querySelector(".nav-links").classList.remove("show");
