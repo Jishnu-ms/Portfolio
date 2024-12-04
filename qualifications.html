@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7Iw5KTAe5HgAsFO++LRn5qZl5q5k5vo5K4" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7Iw5KTAe5HgAsFO++LRn5qZl5q5k5vo5K4" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,62 +13,67 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bb">
-        <header class="top">
-            <h1 class="h1">Home</h1>
-            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-            <nav class="nav-links">
-                <a class="txt" href="index.html">Home</a>
-                <a class="txt" href="portfolio.html">Portfolio</a>
-                <a class="txt" href="skills.html">Skills</a>
-                <a class="txt" href="qualifications.html">Qualifications</a>
-                <a class="txt" href="contact.html">Contact</a>
-            </nav>
-            <script src="script.js"></script>
-        </header>
-        <div class="division">
-        </div>    
-    <section>
-    <h2 class="info">QUALIFICATIONS</h2>
-    <div class="skill">
-        <div class="card">
-            <h1 class="heading">B-TECH</h1>
-            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202407/5-ways-to-raise-the-value-of-your-btech-degree-135350806-16x9_0.jpg?VersionId=PHGwgZPpzIHatjmxs70zvhCo1kZyfDIa" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="about-me">Gained technical skills in programming, engineering principles, and problem-solving.</p>
-              <p class="about-me">Engaged in projects and internships to build hands-on experience in engineering and technology.</p>
-            </div>
-          </div>
-          <div class="division">
-          </div>
-        <div >
-            <div class="card">
-                <h1 class="heading">HIGHER SECONDARY</h1>
-                <img src="https://www.avanse.com/blogs/images/10feb-blog-2023.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="about-me">Completed higher secondary education with a focus on Mathematics, Physics, and Chemistry.</p>
-                  <p class="about-me">Achieved strong grades in science and mathematics subjects.</p>
-                  <p class="about-me">Developed foundational analytical and problem-solving skills.</p>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    
+    <header class="top">
+        <h1 class="h1">Qualifications</h1>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav class="nav-links">
+            <a class="txt" href="index.html">Home</a>
+            <a class="txt" href="portfolio.html">Portfolio</a>
+            <a class="txt" href="skills.html">Skills</a>
+            <a class="txt" href="qualifications.html">Qualifications</a>
+            <a class="txt" href="contact.html">Contact</a>
+        </nav>
+        <script src="script.js"></script>
+    </header>
+    <div class="division"></div>  
+
+    <center>
+        <section>
+            <h2 class="info" data-aos="fade-down"><b>Qualifications</b></h2>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <!-- Tile 1 - B-TECH -->
+                    <div class="col-md-4 col-12" data-aos="fade-up" data-aos-delay="100">
+                        <div class="tile text-center">
+                            <h1 class="tt">B-TECH</h1>
+                            <a href="https://en.wikipedia.org/wiki/Bachelor_of_Technology">
+                                <img class="linkedin" src="https://cdn.itm.ac.in/2024/05/be-vs-btech.webp" class="card-img-top" alt="B-TECH Degree Image">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Tile 2 - Secondary -->
+                    <div class="col-md-4 col-12" data-aos="fade-up" data-aos-delay="200">
+                        <div class="tile text-center">
+                            <h1 class="tt">SECONDARY</h1>
+                            <a href="https://en.wikipedia.org/wiki/Secondary_education">
+                                <img class="linkedin" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Calhan_High_School_Senior_Classroom_by_David_Shankbone.jpg/375px-Calhan_High_School_Senior_Classroom_by_David_Shankbone.jpg" class="card-img-top" alt="Secondary Education Image">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Tile 3 - School -->
+                    <div class="col-md-4 col-12" data-aos="fade-up" data-aos-delay="300">
+                        <div class="tile text-center">
+                            <h1 class="tt">SCHOOL</h1>
+                            <a href="https://en.wikipedia.org/wiki/School">
+                                <img class="linkedin" src="https://media.istockphoto.com/id/638731986/vector/school-building.jpg?s=612x612&w=0&k=20&c=cETrD6Nheg4ivAfaV6UYoaWbGTaPushFu_ssur8CeZQ=" class="card-img-top" alt="School Education Image">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="division">
-        </div>
-        <div>
-            <div class="card">
-                <h1 class="heading">HIGH SCHOOL</h1>
-                <img src="https://images.hindustantimes.com/rf/image_size_640x362/HT/p2/2015/12/01/Pictures/_c34102da-9849-11e5-b4f4-1b7a09ed2cea.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="about-me">Completed high school with strong performance in core subjects.</p>
-                  <p class="about-me">Focused on building a foundation in Mathematics, Science, and English</p>
-                  <p class="about-me">Developed key skills in problem-solving, teamwork, and time management</p>
-                  
-                </div>
-            </div>
-        </div>
-        <div class="division">
-        </div>
-    </div>
-    </section>
+        </section>
+    </center>
+
     <script>
         function toggleMenu() {
             const navLinks = document.querySelector(".nav-links");
@@ -75,15 +84,21 @@
                 document.querySelector(".nav-links").classList.remove("show");
             });
         });
+
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,  // Duration of animation (ms)
+            once: true,      // Animation happens only once
+        });
     </script>
 </body>
-<div class="division">
-</div>
+
+<div class="division"></div>
 <footer>
-    <p >&copy; 2024 Jishnu_Ms. All Rights Reserved.</p>
+    <p>&copy; 2024 Jishnu_Ms. All Rights Reserved.</p>
     <p>Follow me on 
-      <a  href="https://www.youtube.com/@jishnu3809">Youtube</a>,  
-      <a  href="https://www.instagram.com/jishnl_l/profilecard/?igsh=MXZnZDltczZjZDJpbQ==">Instagram</a>
+        <a href="https://www.youtube.com/@jishnu3809">Youtube</a>,  
+        <a href="https://www.instagram.com/jishnl_l/profilecard/?igsh=MXZnZDltczZjZDJpbQ==">Instagram</a>
     </p>
-  </footer>
+</footer>
 </html>
