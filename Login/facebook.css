@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+    background: lightgray;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: lightgray;
+}
+.sub{
+    font-size: 80px;
+    font: bold;
+    margin-top: 2%;
+    margin-left: 40%;
+    color: blue;
+}
+.fom{
+border-radius: 5px;
+    text-align: center;
+    background: white;
+    font: bold;
+    color: black;
+    margin-top: 2%;
+    margin-left: 35%;
+    font-size: xx-large;
+    margin-right: 30%;
+
+}
+.s{
+
+    text-align: center;
+    background: white;
+    font: bold;
+    color: gray;
+    margin-top: 0%;
+    margin-left: 35%;
+    font-size: small;
+    margin-right: 30%;
+}
+.fill{
+    border-radius: 6px;
+    border-width: 50px;
+    border-color: black;
+    background: white;
+    font-size: small;
+    color:black;
+    margin-left: 35%;
+    margin-right: 30%;
+}
+.button{
+
+    border-width: 0px;
+    border-radius: 6px;
+    margin-left: 130px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background: green;
+    
+}
+.last{
+    text-align: center;
+    color: blue;
+}
+.bottom{
+    background: white;
+    font-size: smaller;
+}
+.tx{
+    margin-left: 45px;
+}
+.button:hover{
+    background-color: lightgreen;
+}
+.nn{
+    height: 30px;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+}

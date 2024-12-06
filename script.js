@@ -14,3 +14,19 @@ document.querySelectorAll(".nav-links .txt").forEach(link => {
     });
 });
 
+// Open the popup and load the HTML page
+function openPopup(url) {
+    const popup = document.getElementById('popup');
+    const iframe = document.getElementById('popup-iframe');
+    iframe.src = url; // Load the HTML file into the iframe
+    popup.style.display = 'flex'; // Show the popup
+  }
+  
+  // Close the popup
+  function closePopup() {
+    const popup = document.getElementById('popup');
+    const iframe = document.getElementById('popup-iframe');
+    iframe.src = ''; // Clear the iframe content
+    popup.style.display = 'none'; // Hide the popup
+  }
+  
