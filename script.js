@@ -29,4 +29,4 @@ function openPopup(url) {
     iframe.src = ''; // Clear the iframe content
     popup.style.display = 'none'; // Hide the popup
   }
-  
+  AOS.init();  
