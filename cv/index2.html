@@ -1,0 +1,156 @@
+<!DOCTYPE html> <!Helps Browser to RENDER>
+<html lang="en"> <!Language=English>
+<head>
+    <meta charset="UTF-8"> <! TO acess characters>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <! Zooming ratio>
+    <title>Personalized Website</title>
+    <meta name="description" content="jishnu personal website">
+    <link rel="icon" href="./assets/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+
+</head>
+<body class="body">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    
+<script>
+    AOS.init();
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <center>
+        <header class="headr">
+            <h1 class="topheading1">Welcome To my Website</h1>
+            <br>
+            <p class="tex1">This is JISHNU, An Aspiring Software Developer</p>
+        </header>
+        
+    <br>
+    <section class="About">
+        <h2 class="topheading">About Me</h2>
+        <p class="tex">Hi i am JISHNU</p>
+        <img class="photo col-md-6 col-12" src="assets/img/Jishnu.jpeg" alt="Picture" width="300px">
+    </section>
+    <hr>
+    <section class="cont">
+        <h2>Social</h2>
+    <p>Lets Connect</p>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6 col-6">
+        <div class="linkedin">
+        <a href="https://www.linkedin.com/in/jishnums830/">
+        <img class="linkedin" src="assets/img/linkedin.webp">
+        </a>
+        </div>
+
+        
+        </div>
+        <div class="col-md-6 col-6">
+        <div class="linkedin">
+        <a href="mailto:jishnums830@gmail.com">
+        <img class="linkedin" src="assets/img/mail.webp">
+        </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <hr>
+    <section class="cont">
+        <h2>Projects</h2>
+        <p>My Works</p>
+        <p><a href="project.html">Project 1</a> | <a href="project.html">Project 2</p></a>
+    </section>
+    <hr>
+    <section>
+        <h2 class="text-center" data-aos="fade-down">My Skills</h2>
+        <div class="container">
+            <div class="row">
+                <!-- Tile 1 -->
+                <div class="col-md-4 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="tile text-center">
+                        <h3>HTML</h3>
+                        <img class="linkedin" src="assets/img/html.webp" alt="HTML">
+                    </div>
+                </div>
+        
+                <!-- Tile 2 -->
+                <div class="col-md-4 col-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tile text-center">
+                        <h3>CSS</h3>
+                        <img class="linkedin" src="assets/img/css.png" alt="CSS">
+                    </div>
+                </div>
+        
+                <!-- Tile 3 -->
+                <div class="col-md-4 col-12" data-aos="fade-up" data-aos-delay="300">
+                    <div class="tile text-center">
+                        <h3>JS</h3>
+                        <img class="linkedin" src="assets/img/js.jpg" alt="JavaScript">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr>
+    <section class="cont">
+        <h2 class="topheading">Contact Me</h2>
+        <br>
+        <form id="contactForm">
+            <label class="tex" for="name">Name:</label>
+            <input class="box" type="text" name="name" id="name" required>
+            <br><br>
+            
+            <label class="tex" for="email">Email:</label>
+            <input class="box" type="email" name="email" id="email" required>
+            <br><br>
+            
+            <label class="tex" for="message">Message:</label>
+            <textarea class="box" name="message" id="message" cols="30" required></textarea>
+            <br><br>
+            
+            <button class="green-btn" type="submit">Send</button>
+        </form>
+    
+        <script>
+            // Initialize EmailJS
+            emailjs.init("N6Z387gNh7z1Y7HvY");
+    
+            // Handle form submission
+            document.getElementById("contactForm").addEventListener("submit", function (event) {
+                event.preventDefault(); // Prevent default form submission
+    
+                // Gather form data
+                const formData = {
+                    name: document.getElementById("name").value,
+                    email: document.getElementById("email").value,
+                    message: document.getElementById("message").value,
+                };
+    
+                // Send email using EmailJS
+                emailjs
+                .send("service_fmjntsq", "template_z8dvl7y", formData)
+  .then(() => {
+    alert("Message sent successfully!");
+  })
+  .catch((error) => {
+    console.error("Error Details:", error);
+    alert(`Failed to send message. Error: ${error.text || "Unknown Error"}`);
+  });
+            });
+        </script>
+    </section>
+    <hr>
+    <footer class="headr">
+        <p class="tex">&copy; 2024 Jishnu M_S. All rights reserved.</p>
+        <p class="tex">Contact: <a class="tex" href="mailto:jishnums830@gmail.com">Jishnu</a></p>
+    </footer>
+    </center>
+</body>
+</html>
