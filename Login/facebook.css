@@ -17,7 +17,6 @@ body{
 .fom{
 border-radius: 5px;
     text-align: center;
-    background: white;
     font: bold;
     color: black;
     margin-top: 2%;
@@ -29,7 +28,6 @@ border-radius: 5px;
 .s{
 
     text-align: center;
-    background: white;
     font: bold;
     color: gray;
     margin-top: 0%;
@@ -41,7 +39,6 @@ border-radius: 5px;
     border-radius: 6px;
     border-width: 50px;
     border-color: black;
-    background: white;
     font-size: small;
     color:black;
 
