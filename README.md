@@ -1,22 +1,27 @@
-Portfolio Website
-Welcome to my portfolio website! This site showcases my skills, projects, and accomplishments as a web developer and software engineer. 
-It is built using HTML, CSS, JavaScript, and React, and serves as a central hub for potential employers, collaborators, and clients to learn more about me.
+# My Portfolio
+Welcome to my personal portfolio! This website showcases my skills, projects, and experiences. Feel free to explore the various sections to learn more about me and the work I’ve done.
 
-Features
-About Me: A brief overview of my background, education, and skills.
-Skills: A section dedicated to my technical skills in web development and programming languages.
-Projects: Displaying the web and software projects I’ve worked on, with detailed descriptions and links to GitHub repositories.
-Contact: A form that allows visitors to reach out to me directly.
-
-
-Technologies Used
-HTML5: For structuring the website’s content.
-CSS3: For styling the website, ensuring it is responsive and looks great on all devices.
-JavaScript: For interactivity and handling dynamic content.
-React: Used for creating interactive user interfaces.
-Bootstrap: For responsive design and faster development.
+# Features
+* About Me: Learn about my background, skills, and interests.
+* Projects: View some of the projects I’ve worked on, including web development, programming, and more.
+ * Skills: View some of my skills
+* Contact: Reach out to me for opportunities or collaboration.
 
 
-Acknowledgments
-Thanks to React for making building user interfaces so much easier.
-Special thanks to the Bootstrap team for making responsive web design easy to implement.
+# Technologies Used
+* HTML: Markup for the structure of the website.
+* CSS: Styling the portfolio to look attractive and responsive.
+* JavaScript: Adding interactivity and functionality to the website.
+* Bootstrap: Enabling responsiveness
+
+# Demo
+You can view the live demo of the website at: Portfoilio Demo https://jishnu-ms.github.io/Portfolio/
+
+# Installation
+* Clone the repository:
+* Copy code
+
+* git clone https://github.com/Jishnu-ms/Portfolio.git
+* Open index.html in your preferred web browser to launch the calculator.
+
+  
